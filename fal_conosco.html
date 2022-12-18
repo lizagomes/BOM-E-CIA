@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>BOM DIA E CIA</title>
+    <link rel="icon" href="imagem/icon-removebg-preview.png">
+
+
+
+    <!--Link Boostrap CSS e JS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!--Link Icons Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        
+        #imgClient{
+            background-size:cover;
+            margin-top: -250px;
+
+        }
+
+        input {
+            width: 100px;
+        }
+
+        body {
+
+            background-image: url(imagem/imgSd01.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+
+<body style="background-color: rgb(96, 243, 76);">
+
+    <center>
+        <br><br><br>
+        <h3 id="tit" style="color: #FFF;"></h3>
+        <h5 style="color: #FFF;"></h5>
+    </center>
+    <!--Paginas para cadastro de SGt e oficiais tmporarios-->
+    <!--Paginas para cadastro de SGt e oficiais tmporarios-->
+
+    <br>
+    <br>
+
+    <center>
+        <form method="POST" action="#" id="formCad"
+            style="background-color: rgb(35, 20, 243);width: 760px; height: 720px;border-radius: 20px;margin-left: -600px;margin-top: -140px;">
+            <!--form 01-->
+            <br>
+            <div style="margin-left: -400px;">
+                <div>
+                    <input type="hidden" name="id">
+                </div>
+                <div class="form-group">
+                    <label id="lname" style="color: #FFF;">
+                        NOME:
+                    </label>
+                    <input style="width: 300px;" maxlength="20" type="text" class="form-control" name="nome"
+                        placeholder="Digite o nome">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label id="lidade" style="color: #FFF;">
+                        CPF:
+                    </label>
+                    <input style="width: 300px;" type="number" class="form-control" name="idade"
+                        placeholder="Digite a idade" maxlength="2">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label id="lemail" style="color: #FFF;">
+                        EMAIL:
+                    </label>
+                    <input style="width: 300px;" type="email" class="form-control" name="email"
+                        placeholder="Digite o email">
+                </div>
+                <div class="form-group">
+                    <label id="ltele" style="color: #FFF;">
+                        TELEFONE PESSOAL:
+                    </label>
+                    <input style="width: 300px;" type="text" class="form-control" name="contato"
+                        placeholder="(00) 0000-00000" maxlength="15">
+                </div>
+                <br>
+            </div>
+            <!--form 02-->
+            <div style="margin-left: 300px;margin-top:-415px;">
+                <div class="form-group">
+                    <label style="color: #fff;">
+                        ENDEREÇO:
+                    </label>
+                    <input type="tel" style="width: 300px;" name="endereco" class="form-control"
+                        placeholder="Digite o endereço" maxlength="30">
+                </div>
+            </div>
+
+            <div id="btn" style="margin-top: 50px; margin-left: 290px;">
+                <button class="btn btn-dark">CADASTRAR</button>
+            </div>
+
+
+        </form>
+
+
+    </center>
+
+</body>
+
+</html>
